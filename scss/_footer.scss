@@ -1,0 +1,23 @@
+.footer-section {
+  width: 100%;
+  background: $primary-colour;
+  bottom: 0;
+  color: rgb(250, 226, 226);
+  text-decoration: none;
+  clear: both;
+  // position: absolute;
+  position: relative;
+  ul {
+    li {
+      display: inline-block;
+      a {
+      color: rgb(250, 226, 226);
+      padding: 0 0.35rem 0 0;
+      // margin: 0 0.5rem;
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
