@@ -24,6 +24,34 @@
     font-family: $main-font;
 }
 
+ul {
+  list-style: none;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px;
+  z-index: 1;
+  top: 0;
+  ul {
+    display: flex;
+    a {
+      color: rgb(250, 226, 226);
+      padding: 0.45rem;
+      margin: 0 0.5rem;
+      text-decoration: none;
+      &:hover {
+        color: #fff;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
