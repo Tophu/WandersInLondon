@@ -1,7 +1,7 @@
 // Backgrounds
 .bg {
   &-primary {
-    background-color: $primary-colour;
+    background-color: $primary-colour !important;
     color: #fff;
   }
 }

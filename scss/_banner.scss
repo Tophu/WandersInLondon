@@ -1,4 +1,17 @@
 .banner {
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-image: url("/img/big-ben-bridge-castle-460672.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  // background-size: 100% 200%;
+  background-position-y: 35%;
+  background-size: cover;
+  height: 80vh;
+  h1 {
+    color: #fff;
+    font-size: 2.8rem;
+    text-shadow: black -1px 3px 9px;
+  }
 }

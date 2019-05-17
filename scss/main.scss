@@ -41,6 +41,7 @@ nav {
   top: 0;
   ul {
     display: flex;
+    align-items: center;
     a {
       color: rgb(250, 226, 226);
       padding: 0.45rem;
@@ -57,6 +58,7 @@ nav {
 .landing {
   position: relative;
   // background: url('../img/landing.jpg') no-repeat center center/cover;
+  // overflow: hidden;
   padding-top: 100px;
   margin: 40px;
   height: 100vh;
