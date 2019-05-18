@@ -1,0 +1,13 @@
+.newsletter-container {
+  .form-container {
+    display: flex;
+    // justify-content: flex-end;
+    // float: right;
+    .forms {
+      display: flex;
+      justify-content: space-around;
+      background: black;
+      width: 100%;
+    }
+  }
+}

@@ -5,3 +5,23 @@
     color: #fff;
   }
 }
+
+// Buttons
+
+.main-btn {
+  background: $primary-colour;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  border-radius: 8px;
+  font-size: 20px;
+  &:hover {
+    background: $dark-colour;
+  }
+}
+
+// Email
+
+#email-box {
+  border: 1px solid rgba(0,0,0,.125);
+  padding: 0.8rem 2rem;
+}

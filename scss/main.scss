@@ -3,6 +3,7 @@
 @import 'utilities';
 @import 'banner';
 @import 'footer';
+@import 'newsletter';
 
 @import url('https://fonts.googleapis.com/css?family=Muli');
 /*! HTML5 Boilerplate v7.1.0 | MIT License | https://html5boilerplate.com/ */
@@ -24,6 +25,9 @@
     font-size: 1em;
     line-height: 1.4;
     font-family: $main-font;
+    body {
+      background: #f5f5f5;
+    }
 }
 
 ul {
@@ -59,10 +63,9 @@ nav {
   position: relative;
   // background: url('../img/landing.jpg') no-repeat center center/cover;
   // overflow: hidden;
-  padding-top: 100px;
-  margin: 40px;
-  // height: 100vh;
+  margin: 150px 350px;
   min-height: 100%;
+  border-width: 2rem;
 
   &-inner {
     color: #fff;
