@@ -13,6 +13,9 @@
   position: relative;
   .footer-container {
   display: flex;
+  p {
+    text-align: end;
+  }
   }
   ul {
     padding: 0;
@@ -28,4 +31,17 @@
       }
     }
   }
+}
+
+// Containers
+.about-us-container {
+  width: 50%;
+}
+
+.contact-us-container {
+  width: 50%;
+}
+
+.social-container {
+  width: 50%;
 }
