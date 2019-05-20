@@ -1,12 +1,22 @@
 .newsletter-container {
   .form-container {
     display: flex;
+    justify-content: center;
     // justify-content: flex-end;
     // float: right;
-    .forms {
-      display: flex;
-      justify-content: space-around;
-      background: black;
+    // .forms {
+    //   display: flex;
+    //   justify-content: space-around;
+    //   background: black;
+    //   width: 100%;
+    // }
+    form {
+      width: 100%;
+      input {
+        padding: 1.6rem 1rem;
+      }
+    }
+    button {
       width: 100%;
     }
   }

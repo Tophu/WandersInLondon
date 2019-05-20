@@ -4,6 +4,7 @@
 @import 'banner';
 @import 'footer';
 @import 'newsletter';
+@import 'navbar';
 
 @import url('https://fonts.googleapis.com/css?family=Muli');
 /*! HTML5 Boilerplate v7.1.0 | MIT License | https://html5boilerplate.com/ */
@@ -34,30 +35,6 @@ ul {
   list-style: none;
 }
 
-nav {
-  position: fixed;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 4px;
-  z-index: 1;
-  top: 0;
-  ul {
-    display: flex;
-    align-items: center;
-    a {
-      color: rgb(250, 226, 226);
-      padding: 0.45rem;
-      margin: 0 0.5rem;
-      text-decoration: none;
-      &:hover {
-        color: #fff;
-        text-decoration: underline;
-      }
-    }
-  }
-}
 
 .landing {
   position: relative;

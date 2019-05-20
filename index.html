@@ -31,7 +31,17 @@
       <li><a href="">Food</a></li>
       <li><a href="">Museums</a></li>
       <li><a href="">Parks</a></li>
-      <li><a href="">More</a></li>
+      <!-- <li><a href="">More</a></li> -->
+      <div class="dropdown">
+        <button class="dropbtn">More
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#market">Markets</a>
+          <a href="#theatre">Theatres</a>
+          <a href="#event">Seasonal Events</a>
+        </div>
+      </div>
       <li><a href=""><i class="fas fa-search"></i>Search</a></li>
     </ul>
   </nav>
@@ -213,7 +223,7 @@
       <div class="more-container">
         <h2>More</h2>
         <div class="card-deck">
-          <div class="card">
+          <div class="card" id="market">
             <img class="card-img" src="img/camden16.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Markets</h5>
@@ -222,7 +232,7 @@
               <a href="">Read More</a>
             </div>
           </div>
-          <div class="card">
+          <div class="card" id="theatre">
             <img class="card-img" src="img/methode_times_prod_web_bin_9942c142-bf5d-11e8-a932-84839f5183a4.jpg"
               class="card-img-top" alt="...">
             <div class="card-body">
@@ -232,10 +242,10 @@
               <a href="">Read More</a>
             </div>
           </div>
-          <div class="card">
+          <div class="card" id="event">
             <img class="card-img" src="img/l0winter-wonderland-1280x720.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Seasonals</h5>
+              <h5 class="card-title">Seasonal Events</h5>
               <p class="card-text">There's so much happening in London all year round – London's events calendar is
                 always busy! Have a look at our overview of events in London by month, plan...</p>
               <a href="">Read More</a>
