@@ -18,7 +18,7 @@ nav {
       text-decoration: none;
       &:hover {
         color: #fff;
-        text-decoration: underline;
+        // text-decoration: underline;
       }
     }
   }
@@ -54,6 +54,7 @@ nav {
 }
 .dropdown-content a:hover {
   background-color: #ddd;
+  background: $primary-colour;
 }
 
 .dropdown:hover .dropdown-content {

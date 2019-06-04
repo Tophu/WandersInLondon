@@ -1,11 +1,14 @@
-.card-body {
-  .read-more-p {
-    display: flex;
-    justify-content: end;
-    // background: aqua;
+.card {
+  box-shadow: -1px 2px 6px -1px rgb(155, 153, 153);
+  .card-body {
+    .read-more-p {
+      display: flex;
+      justify-content: end;
+      // background: aqua;
+    }
   }
-}
-.card-img {
-  height: 230px;
-  width: 100%;
+  .card-img {
+    height: 230px;
+    width: 100%;
+  }
 }
