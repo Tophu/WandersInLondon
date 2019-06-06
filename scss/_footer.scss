@@ -45,4 +45,13 @@
 
 .social-container {
   width: 50%;
+  a {
+    text-decoration: none;
+  }
+}
+
+.copyright-container {
+  display: flex;
+  align-items: end;
+  width: 30%;
 }
