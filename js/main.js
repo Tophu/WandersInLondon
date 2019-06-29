@@ -5,7 +5,7 @@
 // iterate with a loop inside a function
 // sub.innerHTML = "bye";
 
-const apiMe = "https://api.github.com/users/tophu";
+// const apiMe = "https://api.github.com/users/tophu";
 
 async function myApi() {
   const res = await fetch(apiMe)
